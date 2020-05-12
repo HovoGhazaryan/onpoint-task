@@ -1,30 +1,20 @@
-# Created by https://www.gitignore.io/api/windows
-# Edit at https://www.gitignore.io/?templates=windows
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
+# Created by https://www.gitignore.io/api/linux
+# Edit at https://www.gitignore.io/?templates=linux
 
-# Dump file
-*.stackdump
+### Linux ###
+*~
 
-# Folder config file
-[Dd]esktop.ini
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# KDE directory preferences
+.directory
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-# Windows shortcuts
-*.lnk
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
-# End of https://www.gitignore.io/api/windows
+# End of https://www.gitignore.io/api/linux
