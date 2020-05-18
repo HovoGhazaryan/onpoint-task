@@ -124,19 +124,19 @@ noscript {
     	height: 100%;
     	z-index: 1;
 	}
+	.undersection_one, .undersection_two, .undersection_three {
+		background-size: cover;
+	}
 	section.section_three section.slider div.undersection_one {
 		background: url('../images/backgrounds/BG_5.png');
-		background-size: cover;
 		left: 200%;
 	}
 	section.section_three section.slider div.undersection_two {
 		background: url('../images/backgrounds/BG_3.png');
-		background-size: cover;
 		left: 100%;
 	}
 	section.section_three section.slider div.undersection_three {
 		background: url('../images/backgrounds/BG_4.png');
-		background-size: cover;
 	}
 	section.section_three section.slider div.undersection_one img.tab {
 		width: 910px;
